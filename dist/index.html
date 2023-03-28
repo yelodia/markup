@@ -1,0 +1,584 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no"/>
+    <title>Ex</title>
+
+    <link rel="icon" type="image/svg+xml" href="vite.svg" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+    <script type="module" crossorigin src="assets/main-71b981d4.js"></script>
+    <link rel="stylesheet" href="assets/main-ec08bf6e.css">
+  </head>
+  <body>
+    
+    <div class="wrapper">
+      <header>
+        <div class="content h-100 d-flex align-items-center">
+          <a href="" class="menu-toggler d-flex d-md-none" onclick="(function(evt){evt.preventDefault();document.querySelector('menu').classList.add('menu_opened');})(arguments[0])"></a>
+          <a href="" class="logo"><img src="images/logo.svg" alt="" class="d-block"></a>
+          <menu class="menu">
+            <div class="menu-head">
+              <a href="" class="menu-close c-grey" onclick="(function(evt){evt.preventDefault();document.querySelector('menu').classList.remove('menu_opened');})(arguments[0])">
+                <svg width="15" height="15">
+                  <use xlink:href="#clear"></use>
+                </svg>
+              </a>
+              <a href="" class="m-auto"><img src="images/logo.svg" width="170" height="60" alt="" class="d-block"></a>
+            </div>
+            <a href="" class="menu-item ms-0 ms-md-4 ms-xl-10 active">Home</a>
+            <a href="" class="menu-item ms-0 ms-md-4 ms-xl-10">Profile</a>
+            <a href="" class="menu-item ms-0 ms-md-4 ms-xl-10" onclick="(function(evt){evt.preventDefault();document.querySelector('.modal').classList.add('modal_active');})(arguments[0])">Open modal !!!</a>
+          </menu>
+          
+          <div class="ms-auto"></div>
+            <div class="btn btn_info btn_rounded ms-3 d-none d-lg-flex">
+              <div class="avatar avatar_sm me-3 ms-n4"><img src="https://saraya-shop.ru/upload/images/zelenoe-yabloko-2.jpg" alt=""></div>
+              0x86b...a1e9268
+            </div>
+            <span class="btn btn_info btn_rounded ms-3"> 
+              <span class="d-none d-lg-inline me-2">Balance:</span> 
+              <b class="me-2">1.25</b> 
+              <span class="c-grey">ETH</span>
+            </span>
+
+        </div>
+      </header>
+      
+      
+      
+      <main>
+        <div class="content">
+
+          <h2 class="subhead">
+            <span>Premium collections</span>
+          </h2>
+
+          <div class="swiper premium">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <div class="card card_dark border-gradient d-flex nft-premium">
+                  <div class="square rounded border-white me-5" >
+                    <img src="https://kovi.ru/wp-content/uploads/2022/05/golden-ape.webp" alt="">
+                  </div>
+                  <div class="d-flex flex-fill flex-column justify-content-between">
+                    <div class="nowrap s16"><b>Lorem ipsum dolor sit amet.</b></div>
+                    <div class="d-flex align-items-center">
+                      <div class="s12">
+                        <svg width="12" height="12">
+                          <use xlink:href="#eth"></use>
+                        </svg>
+                        <b>0.02 ETH</b>
+                      </div>
+                      <div class="btn btn_sm btn_rounded px-2 ms-auto">Enter raffle</div>
+                    </div>
+                    <div class="d-flex align-items-baseline">
+                      <b class="c-blue text-uppercase s10">1 hour left</b>
+                      <div class="ms-auto s11">7/25 Raffles remaining</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="swiper-slide">
+                <div class="card card_dark border-gradient d-flex nft-premium">
+                  <div class="square rounded border-white me-5" >
+                    <img src="https://kovi.ru/wp-content/uploads/2022/05/golden-ape.webp" alt="">
+                  </div>
+                  <div class="d-flex flex-fill flex-column justify-content-between">
+                    <div class="nowrap s16"><b>Lorem ipsum dolor sit amet.</b></div>
+                    <div class="d-flex align-items-center">
+                      <div class="s12">
+                        <svg width="12" height="12">
+                          <use xlink:href="#eth"></use>
+                        </svg>
+                        <b>0.02 ETH</b>
+                      </div>
+                      <div class="btn btn_sm btn_rounded px-2 ms-auto">Enter raffle</div>
+                    </div>
+                    <div class="d-flex align-items-baseline">
+                      <b class="c-blue text-uppercase s10">1 hour left</b>
+                      <div class="ms-auto s11">7/25 Raffles remaining</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="swiper-slide">
+                <div class="card card_dark border-orange d-flex nft-premium">
+                  <div class="square rounded border-white me-5" >
+                    <img src="https://kovi.ru/wp-content/uploads/2022/05/golden-ape.webp" alt="">
+                  </div>
+                  <div class="d-flex flex-fill flex-column justify-content-between">
+                    <div class="nowrap s16"><b>Lorem ipsum dolor sit amet.</b></div>
+                    <div class="d-flex align-items-center">
+                      <div class="s12">
+                        <svg width="12" height="12">
+                          <use xlink:href="#eth"></use>
+                        </svg>
+                        <b>0.02 ETH</b>
+                      </div>
+                      <div class="btn btn_sm btn_rounded px-2 ms-auto">Enter raffle</div>
+                    </div>
+                    <div class="d-flex align-items-baseline">
+                      <b class="c-orange text-uppercase s10">1 hour left</b>
+                      <div class="ms-auto s11">7/25 Raffles remaining</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="swiper-slide">
+                <div class="card card_dark border-orange d-flex nft-premium">
+                  <div class="square rounded border-white me-5" >
+                    <img src="https://kovi.ru/wp-content/uploads/2022/05/golden-ape.webp" alt="">
+                  </div>
+                  <div class="d-flex flex-fill flex-column justify-content-between">
+                    <div class="nowrap s16"><b>Lorem ipsum dolor sit amet.</b></div>
+                    <div class="d-flex align-items-center">
+                      <div class="s12">
+                        <svg width="12" height="12">
+                          <use xlink:href="#eth"></use>
+                        </svg>
+                        <b>0.02 ETH</b>
+                      </div>
+                      <div class="btn btn_sm btn_rounded px-2 ms-auto">Enter raffle</div>
+                    </div>
+                    <div class="d-flex align-items-baseline">
+                      <b class="c-orange text-uppercase s10">1 hour left</b>
+                      <div class="ms-auto s11">7/25 Raffles remaining</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="swiper-slide">
+                <div class="card card_dark border-orange d-flex nft-premium">
+                  <div class="square rounded border-white me-5" >
+                    <img src="https://kovi.ru/wp-content/uploads/2022/05/golden-ape.webp" alt="">
+                  </div>
+                  <div class="d-flex flex-fill flex-column justify-content-between">
+                    <div class="nowrap s16"><b>Lorem ipsum dolor sit amet.</b></div>
+                    <div class="d-flex align-items-center">
+                      <div class="s12">
+                        <svg width="12" height="12">
+                          <use xlink:href="#eth"></use>
+                        </svg>
+                        <b>0.02 ETH</b>
+                      </div>
+                      <div class="btn btn_sm btn_rounded px-2 ms-auto">Enter raffle</div>
+                    </div>
+                    <div class="d-flex align-items-baseline">
+                      <b class="c-orange text-uppercase s10">1 hour left</b>
+                      <div class="ms-auto s11">7/25 Raffles remaining</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="swiper-slide">
+                <div class="card card_dark border-orange d-flex nft-premium">
+                  <div class="square rounded border-white me-5" >
+                    <img src="https://kovi.ru/wp-content/uploads/2022/05/golden-ape.webp" alt="">
+                  </div>
+                  <div class="d-flex flex-fill flex-column justify-content-between">
+                    <div class="nowrap s16"><b>Lorem ipsum dolor sit amet.</b></div>
+                    <div class="d-flex align-items-center">
+                      <div class="s12">
+                        <svg width="12" height="12">
+                          <use xlink:href="#eth"></use>
+                        </svg>
+                        <b>0.02 ETH</b>
+                      </div>
+                      <div class="btn btn_sm btn_rounded px-2 ms-auto">Enter raffle</div>
+                    </div>
+                    <div class="d-flex align-items-baseline">
+                      <b class="c-orange text-uppercase s10">1 hour left</b>
+                      <div class="ms-auto s11">7/25 Raffles remaining</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="swiper-slide">
+                <div class="card card_dark border-orange d-flex nft-premium">
+                  <div class="square rounded border-white me-5" >
+                    <img src="https://kovi.ru/wp-content/uploads/2022/05/golden-ape.webp" alt="">
+                  </div>
+                  <div class="d-flex flex-fill flex-column justify-content-between">
+                    <div class="nowrap s16"><b>Lorem ipsum dolor sit amet.</b></div>
+                    <div class="d-flex align-items-center">
+                      <div class="s12">
+                        <svg width="12" height="12">
+                          <use xlink:href="#eth"></use>
+                        </svg>
+                        <b>0.02 ETH</b>
+                      </div>
+                      <div class="btn btn_sm btn_rounded px-2 ms-auto">Enter raffle</div>
+                    </div>
+                    <div class="d-flex align-items-baseline">
+                      <b class="c-orange text-uppercase s10">1 hour left</b>
+                      <div class="ms-auto s11">7/25 Raffles remaining</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="swiper-scrollbar py-1 my-3 position-relative"></div>
+          </div>
+
+
+          <h2 class="subhead">
+            <span>Last collections</span>
+          </h2>
+
+          <div class="d-block d-sm-flex my-5">
+            <div class="input flex-fill">
+              <input type="text" placeholder="Search item here">
+            </div>
+
+            <div class="ms-0 mt-3 mt-sm-0 ms-sm-3 d-flex">
+              <div class="select flex-fill">
+                <select name="" id="">
+                  <option value="">Price low to high</option>
+                  <option value="">Price high to low</option>
+                  <option value="">Value</option>
+                </select>
+              </div>
+              <div class="form-group ms-3">
+                <label class="input"><input type="radio" name="view" value="table" onchange="setView()">
+                  <div class="btn btn_grey btn_icon">
+                    <svg width="18" height="18">
+                      <use xlink:href="#view-table"></use>
+                    </svg>
+                  </div>
+                </label>
+                <label class="input"><input type="radio" name="view" value="grid" checked onchange="setView()">
+                  <div class="btn btn_grey btn_icon">
+                    <svg width="18" height="18">
+                      <use xlink:href="#view-grid"></use>
+                    </svg>
+                  </div>
+                </label>
+              </div>
+            </div>
+            
+          </div>
+
+
+
+          <div class="gridview">
+            <div class="tableview__head">
+              <div class="tableview__column-main">Collection</div>
+              <div class="tableview__columns">
+                <div>Tickets</div>
+                <div>Price</div>
+                <div>Ending Date</div>
+              </div>
+            </div>
+
+              <div class="tableview__item nft-item">
+                <div class="tableview__column-main">
+                  <span class="square nft-item__img">
+                      <img src="https://bitcoinist.com/wp-content/uploads/2022/05/Bored-Ape-640x360.png" alt="">
+                  </span>
+                  <div class="nft-item__title">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit
+                  </div>
+                </div>
+                <div class="nft-item__info tableview__columns">
+                  <div class="my-1"><span>Tickets:</span> 1000</div>
+                  <div class="my-1"><span>Price:</span> 0.02 ETH</div>
+                  <div class="my-1"><span>Ending Date:</span> 12/12/22</div>
+                </div>
+              </div>
+
+              <div class="tableview__item nft-item">
+                <div class="tableview__column-main">
+                  <span class="square nft-item__img">
+                      <img src="https://kovi.ru/wp-content/uploads/2022/05/golden-ape.webp" alt="">
+                  </span>
+                  <div class="nft-item__title">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit
+                  </div>
+                </div>
+                <div class="nft-item__info tableview__columns">
+                  <div class="my-1"><span>Tickets:</span> 1000</div>
+                  <div class="my-1"><span>Price:</span> 0.02 ETH</div>
+                  <div class="my-1"><span>Ending Date:</span> 12/12/22</div>
+                </div>
+              </div>
+
+              <div class="tableview__item nft-item">
+                <div class="tableview__column-main">
+                  <span class="square nft-item__img">
+                      <img src="https://sun9-46.userapi.com/c850732/v850732497/15e937/_ESIHX-pXRw.jpg" alt="">
+                  </span>
+                  <div class="nft-item__title">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit
+                  </div>
+                </div>
+                <div class="nft-item__info tableview__columns">
+                  <div class="my-1"><span>Tickets:</span> 1000</div>
+                  <div class="my-1"><span>Price:</span> 0.02 ETH</div>
+                  <div class="my-1"><span>Ending Date:</span> 12/12/22</div>
+                </div>
+              </div>
+
+              <div class="tableview__item nft-item">
+                <div class="tableview__column-main">
+                  <span class="square nft-item__img">
+                      <img src="https://i.ytimg.com/vi/Wc7PSLC5aII/maxresdefault.jpg" alt="">
+                  </span>
+                  <div class="nft-item__title">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit
+                  </div>
+                </div>
+                <div class="nft-item__info tableview__columns">
+                  <div class="my-1"><span>Tickets:</span> 1000</div>
+                  <div class="my-1"><span>Price:</span> 0.02 ETH</div>
+                  <div class="my-1"><span>Ending Date:</span> 12/12/22</div>
+                </div>
+              </div>
+
+              <div class="tableview__item nft-item">
+                <div class="tableview__column-main">
+                  <span class="square nft-item__img">
+                      <img src="https://bitcoinist.com/wp-content/uploads/2022/05/Bored-Ape-640x360.png" alt="">
+                  </span>
+                  <div class="nft-item__title">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit
+                  </div>
+                </div>
+                <div class="nft-item__info tableview__columns">
+                  <div class="my-1"><span>Tickets:</span> 1000</div>
+                  <div class="my-1"><span>Price:</span> 0.02 ETH</div>
+                  <div class="my-1"><span>Ending Date:</span> 12/12/22</div>
+                </div>
+              </div>
+
+              <div class="tableview__item nft-item">
+                <div class="tableview__column-main">
+                  <span class="square nft-item__img">
+                      <img src="https://kovi.ru/wp-content/uploads/2022/05/golden-ape.webp" alt="">
+                  </span>
+                  <div class="nft-item__title">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit
+                  </div>
+                </div>
+                <div class="nft-item__info tableview__columns">
+                  <div class="my-1"><span>Tickets:</span> 1000</div>
+                  <div class="my-1"><span>Price:</span> 0.02 ETH</div>
+                  <div class="my-1"><span>Ending Date:</span> 12/12/22</div>
+                </div>
+              </div>
+
+              <div class="tableview__item nft-item">
+                <div class="tableview__column-main">
+                  <span class="square nft-item__img">
+                      <img src="https://sun9-46.userapi.com/c850732/v850732497/15e937/_ESIHX-pXRw.jpg" alt="">
+                  </span>
+                  <div class="nft-item__title">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit
+                  </div>
+                </div>
+                <div class="nft-item__info tableview__columns">
+                  <div class="my-1"><span>Tickets:</span> 1000</div>
+                  <div class="my-1"><span>Price:</span> 0.02 ETH</div>
+                  <div class="my-1"><span>Ending Date:</span> 12/12/22</div>
+                </div>
+              </div>
+
+              <div class="tableview__item nft-item">
+                <div class="tableview__column-main">
+                  <span class="square nft-item__img">
+                      <img src="https://i.ytimg.com/vi/Wc7PSLC5aII/maxresdefault.jpg" alt="">
+                  </span>
+                  <div class="nft-item__title">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit
+                  </div>
+                </div>
+                <div class="nft-item__info tableview__columns">
+                  <div class="my-1"><span>Tickets:</span> 1000</div>
+                  <div class="my-1"><span>Price:</span> 0.02 ETH</div>
+                  <div class="my-1"><span>Ending Date:</span> 12/12/22</div>
+                </div>
+              </div>
+
+
+          </div>
+
+
+
+        </div>
+      </main>
+
+
+
+
+      <footer>
+        <div class="content">
+          <div class="row align-items-center text-center">
+            <div class="col-md-3 d-flex justify-content-center justify-content-md-start"><img src="images/logo.svg"></div>
+            <div class="col-md-6 c-grey my-5">
+              <span class="mx-2 my-1 my-md-0 d-inline-block">© X LOTTERY - All Rights Reserved</span>
+              <a href="" class="mx-2 my-1 my-md-0 d-inline-block">Terms of Service</a>
+            </div>
+            <div class="col-md-3 text-md-end">
+              <a href="">
+                <svg width="25" height="21">
+                  <use xlink:href="#twitter"></use>
+                </svg>
+              </a>
+              <a href="" class="ms-3">
+                <svg width="25" height="21">
+                  <use xlink:href="#discord"></use>
+                </svg>
+              </a>
+            </div>
+          </div>
+          
+        </div>
+      </footer>
+
+
+      <div class="modal">
+        <div class="modal__wrap">
+          <div class="modal__window border-gradient">
+
+            <a href="" class="modal__close c-white" onclick="(function(evt){evt.preventDefault();document.querySelector('.modal').classList.remove('modal_active');})(arguments[0])">
+              <svg width="10" height="10">
+                <use xlink:href="#clear"></use>
+              </svg>
+            </a>
+
+            <div class="row justify-content-center">
+
+              <div class="col-sm-5 d-flex flex-column" >
+                <div class="square rounded">
+                  <img src="https://bitcoinist.com/wp-content/uploads/2022/05/Bored-Ape-640x360.png" alt="">
+                </div>
+                <div class="nowrap s20 mt-3 mb-1"><b>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</b></div>
+
+                <div class="s12 c-grey mt-auto">
+                  view on <a href="" class="c-blue">Opensea</a>
+                </div>
+              </div>
+
+              <div class="col-sm-7 d-flex flex-column mt-5 mt-sm-0" >
+                <div class="c-grey">Ticket price</div>
+                <div class="input input_light mt-2 mb-4">
+                  <input type="text">
+                </div>
+
+                <div class="c-grey">Number of Tickets</div>
+                <div class="input input_light mt-2 mb-4">
+                  <input type="number">
+                </div>
+
+                <div class="c-grey">Total</div>
+                <div class="input input_light mt-2 mb-4">
+                  <input type="text">
+                </div>
+
+                <div class="mt-auto">
+                  <a href="" class="btn btn_full mt-4">Buy raffle</a>
+                </div>
+                
+
+              </div>
+
+            </div>
+          </div>
+        </div>
+        
+      </div>
+
+
+    </div>
+
+    <svg style="display:none;">
+      <symbol id="clear" viewBox="0 0 13.41 13.41">
+        <rect x="5.71" y="-1.78" width="2" height="16.97" transform="translate(6.71 -2.78) rotate(45)"/><rect x="5.71" y="-1.78" width="2" height="16.97" transform="translate(-2.78 6.71) rotate(-45)"/>
+      </symbol>
+      <symbol id="twitter" viewBox="0 0 25 21">
+        <path d="M24.6164 2.67565C23.7009 3.0772 22.7255 3.34337 21.7086 3.4726C22.7548 2.84796 23.5532 1.86638 23.9286 0.683261C22.9532 1.26482 21.8763 1.67561 20.7285 1.90485C19.8023 0.918655 18.4823 0.307861 17.0422 0.307861C14.2483 0.307861 11.9989 2.57564 11.9989 5.35576C11.9989 5.75577 12.0328 6.1404 12.1159 6.50657C7.92032 6.30195 4.20786 4.2911 1.71391 1.2279C1.27851 1.98331 1.02312 2.84796 1.02312 3.77877C1.02312 5.52653 1.92315 7.07582 3.26475 7.97278C2.45394 7.9574 1.65853 7.722 0.984655 7.35122C0.984655 7.3666 0.984655 7.38661 0.984655 7.40661C0.984655 9.85901 2.73396 11.896 5.02789 12.3653C4.61711 12.4776 4.1694 12.5314 3.70476 12.5314C3.38167 12.5314 3.05551 12.513 2.74934 12.4453C3.40321 14.4438 5.25867 15.9131 7.46491 15.9608C5.74792 17.3039 3.56783 18.1132 1.20774 18.1132C0.793878 18.1132 0.396939 18.0947 0 18.044C2.23547 19.4855 4.88481 20.3087 7.74185 20.3087C17.0284 20.3087 22.1055 12.616 22.1055 5.94809C22.1055 5.725 22.0978 5.50961 22.087 5.29575C23.0886 4.58496 23.9302 3.69723 24.6164 2.67565Z"/>
+      </symbol>
+      
+      <symbol id="discord" viewBox="0 0 24 19">
+        <path d="M20.3179 1.74445C18.7931 1.04863 17.1483 0.544761 15.4315 0.256836C15.3955 0.256836 15.3715 0.268833 15.3474 0.292827C15.1313 0.664729 14.9032 1.1446 14.7351 1.51651C12.8862 1.24058 11.0493 1.24058 9.24847 1.51651C9.09239 1.13261 8.85227 0.664729 8.63617 0.292827C8.62416 0.268833 8.58815 0.256836 8.56413 0.256836C6.8473 0.544761 5.2025 1.06063 3.67775 1.74445C3.66575 1.74445 3.65374 1.75644 3.64173 1.76844C0.532218 6.33924 -0.320198 10.8021 0.100007 15.2049C0.100007 15.2289 0.112013 15.2529 0.136025 15.2649C2.17702 16.7525 4.16999 17.6523 6.11494 18.2521C6.15096 18.2641 6.17497 18.2521 6.19898 18.2281C6.6552 17.6043 7.07541 16.9565 7.42358 16.2606C7.44759 16.2247 7.42358 16.1767 7.38756 16.1527C6.73924 15.9127 6.11494 15.6128 5.51465 15.2769C5.46662 15.2529 5.46662 15.1809 5.50264 15.1569C5.6227 15.061 5.75476 14.965 5.87482 14.869C5.89883 14.857 5.92285 14.845 5.94686 14.857C9.87277 16.6206 14.1349 16.6206 18.0127 14.857C18.0368 14.845 18.0728 14.845 18.0968 14.869C18.2168 14.965 18.3369 15.061 18.469 15.1569C18.517 15.1929 18.505 15.2529 18.457 15.2769C17.8567 15.6248 17.2324 15.9127 16.584 16.1527C16.536 16.1647 16.524 16.2127 16.548 16.2606C16.9082 16.9445 17.3164 17.6043 17.7726 18.2161C17.7966 18.2401 17.8206 18.2521 17.8567 18.2401C19.8136 17.6403 21.8066 16.7405 23.8596 15.2649C23.8716 15.2529 23.8836 15.2289 23.8956 15.2049C24.3999 10.1063 23.0552 5.69141 20.3419 1.76844C20.3419 1.76844 20.3299 1.75644 20.3179 1.74445ZM8.01186 12.5296C6.82328 12.5296 5.85081 11.4619 5.85081 10.1542C5.85081 8.84659 6.81128 7.77887 8.01186 7.77887C9.22446 7.77887 10.1849 8.85859 10.1729 10.1542C10.1729 11.4619 9.21245 12.5296 8.01186 12.5296ZM15.9958 12.5296C14.8072 12.5296 13.8347 11.4619 13.8347 10.1542C13.8347 8.84659 14.7952 7.77887 15.9958 7.77887C17.2083 7.77887 18.1688 8.85859 18.1568 10.1542C18.1568 11.4619 17.2083 12.5296 15.9958 12.5296Z" />
+      </symbol>
+
+      <symbol id="eth" viewBox="0 0 19 19">
+        <g clip-path="url(#clip0_681_5266)">
+          <path d="M9.60304 14.3081L4.52148 11.8271L9.59843 18.6591L10.3612 17.6326V13.9368L9.60304 14.3081Z" fill="white"/>
+          <path d="M9.59581 0.348389L3.76465 10.8114H15.4271L9.59581 0.348389Z" fill="white"/>
+          <path d="M15.429 10.8269L9.59766 0.348389V10.8269H15.429Z" fill="#1286B0"/>
+          <path d="M7.83203 6.15942H8.97641V7.30381H7.83203V6.15942Z" fill="#F7F8FA"/>
+          <path d="M9.59622 7.96988L9.57331 7.95898L3.76562 10.8199H3.77079L9.57848 13.6809L9.60139 13.67L10.359 13.2993V8.34343L9.59622 7.96988Z" fill="#147EA5"/>
+          <path d="M7.83203 3.99536H8.97641V5.13974H7.83203V3.99536Z" fill="#F7F8FA"/>
+          <path d="M9.60227 14.3079L9.59766 18.6588L14.6782 11.8223L9.60227 14.3079Z" fill="#1286B0"/>
+          <path d="M15.4175 10.8199L9.59713 7.96988L9.57422 7.95898L9.57939 13.6809L9.6023 13.67L15.4227 10.8199H15.4175Z" fill="#0E526A"/>
+          </g>
+          <defs>
+          <clipPath id="clip0_681_5266">
+          <rect width="18.3101" height="18.3101" fill="white" transform="translate(0.439453 0.348633)"/>
+          </clipPath>
+          </defs>
+      </symbol>
+
+      <symbol id="arr-down" viewBox="0 0 14 8">
+        <path d="M13 1L7 7L1 1" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+      </symbol>
+
+      <symbol id="view-table" viewBox="0 0 20 16">
+        <path fill-rule="evenodd" clip-rule="evenodd" d="M3.07692 1.6C3.07692 2.02435 2.91484 2.43131 2.62632 2.73137C2.3378 3.03143 1.94649 3.2 1.53846 3.2C1.13044 3.2 0.739123 3.03143 0.450605 2.73137C0.162087 2.43131 0 2.02435 0 1.6C0 1.17565 0.162087 0.768687 0.450605 0.468629C0.739123 0.168571 1.13044 0 1.53846 0C1.94649 0 2.3378 0.168571 2.62632 0.468629C2.91484 0.768687 3.07692 1.17565 3.07692 1.6ZM6.46154 0.32C6.13512 0.32 5.82207 0.454857 5.59125 0.694904C5.36044 0.93495 5.23077 1.26052 5.23077 1.6C5.23077 1.93948 5.36044 2.26505 5.59125 2.5051C5.82207 2.74514 6.13512 2.88 6.46154 2.88H18.7692C19.0957 2.88 19.4087 2.74514 19.6395 2.5051C19.8703 2.26505 20 1.93948 20 1.6C20 1.26052 19.8703 0.93495 19.6395 0.694904C19.4087 0.454857 19.0957 0.32 18.7692 0.32H6.46154ZM6.46154 6.72C6.13512 6.72 5.82207 6.85486 5.59125 7.0949C5.36044 7.33495 5.23077 7.66052 5.23077 8C5.23077 8.33948 5.36044 8.66505 5.59125 8.9051C5.82207 9.14514 6.13512 9.28 6.46154 9.28H18.7692C19.0957 9.28 19.4087 9.14514 19.6395 8.9051C19.8703 8.66505 20 8.33948 20 8C20 7.66052 19.8703 7.33495 19.6395 7.0949C19.4087 6.85486 19.0957 6.72 18.7692 6.72H6.46154ZM6.46154 13.12C6.13512 13.12 5.82207 13.2549 5.59125 13.4949C5.36044 13.7349 5.23077 14.0605 5.23077 14.4C5.23077 14.7395 5.36044 15.0651 5.59125 15.3051C5.82207 15.5451 6.13512 15.68 6.46154 15.68H18.7692C19.0957 15.68 19.4087 15.5451 19.6395 15.3051C19.8703 15.0651 20 14.7395 20 14.4C20 14.0605 19.8703 13.7349 19.6395 13.4949C19.4087 13.2549 19.0957 13.12 18.7692 13.12H6.46154ZM1.53846 9.6C1.94649 9.6 2.3378 9.43143 2.62632 9.13137C2.91484 8.83131 3.07692 8.42435 3.07692 8C3.07692 7.57565 2.91484 7.16869 2.62632 6.86863C2.3378 6.56857 1.94649 6.4 1.53846 6.4C1.13044 6.4 0.739123 6.56857 0.450605 6.86863C0.162087 7.16869 0 7.57565 0 8C0 8.42435 0.162087 8.83131 0.450605 9.13137C0.739123 9.43143 1.13044 9.6 1.53846 9.6ZM1.53846 16C1.94649 16 2.3378 15.8314 2.62632 15.5314C2.91484 15.2313 3.07692 14.8243 3.07692 14.4C3.07692 13.9757 2.91484 13.5687 2.62632 13.2686C2.3378 12.9686 1.94649 12.8 1.53846 12.8C1.13044 12.8 0.739123 12.9686 0.450605 13.2686C0.162087 13.5687 0 13.9757 0 14.4C0 14.8243 0.162087 15.2313 0.450605 15.5314C0.739123 15.8314 1.13044 16 1.53846 16Z" />
+      </symbol>
+
+      <symbol id="view-grid" viewBox="0 0 18 18">
+        <path fill-rule="evenodd" clip-rule="evenodd" d="M10.0833 2.50027C10.0833 1.92561 10.3116 1.37448 10.7179 0.968129C11.1242 0.56178 11.6753 0.333496 12.25 0.333496H15.5C16.0746 0.333496 16.6257 0.56178 17.032 0.968129C17.4384 1.37448 17.6666 1.92561 17.6666 2.50027V5.75043C17.6666 6.3251 17.4384 6.87622 17.032 7.28257C16.6257 7.68892 16.0746 7.91721 15.5 7.91721H12.25C11.6753 7.91721 11.1242 7.68892 10.7179 7.28257C10.3116 6.87622 10.0833 6.3251 10.0833 5.75043V2.50027ZM15.5 2.50027H12.25V5.75043H15.5V2.50027ZM2.49998 10.084C1.92534 10.084 1.37424 10.3123 0.967915 10.7186C0.561586 11.125 0.333313 11.6761 0.333313 12.2508V15.5009C0.333313 16.0756 0.561586 16.6267 0.967915 17.0331C1.37424 17.4394 1.92534 17.6677 2.49998 17.6677H5.74998C6.32462 17.6677 6.87572 17.4394 7.28204 17.0331C7.68837 16.6267 7.91665 16.0756 7.91665 15.5009V12.2508C7.91665 11.6761 7.68837 11.125 7.28204 10.7186C6.87572 10.3123 6.32462 10.084 5.74998 10.084H2.49998ZM2.49998 12.2508H5.74998V15.5009H2.49998V12.2508ZM12.25 10.084C11.6753 10.084 11.1242 10.3123 10.7179 10.7186C10.3116 11.125 10.0833 11.6761 10.0833 12.2508V15.5009C10.0833 16.0756 10.3116 16.6267 10.7179 17.0331C11.1242 17.4394 11.6753 17.6677 12.25 17.6677H15.5C16.0746 17.6677 16.6257 17.4394 17.032 17.0331C17.4384 16.6267 17.6666 16.0756 17.6666 15.5009V12.2508C17.6666 11.6761 17.4384 11.125 17.032 10.7186C16.6257 10.3123 16.0746 10.084 15.5 10.084H12.25ZM12.25 12.2508H15.5V15.5009H12.25V12.2508ZM2.49998 0.333496C1.92534 0.333496 1.37424 0.56178 0.967915 0.968129C0.561586 1.37448 0.333313 1.92561 0.333313 2.50027V5.75043C0.333313 6.3251 0.561586 6.87622 0.967915 7.28257C1.37424 7.68892 1.92534 7.91721 2.49998 7.91721H5.74998C6.32462 7.91721 6.87572 7.68892 7.28204 7.28257C7.68837 6.87622 7.91665 6.3251 7.91665 5.75043V2.50027C7.91665 1.92561 7.68837 1.37448 7.28204 0.968129C6.87572 0.56178 6.32462 0.333496 5.74998 0.333496H2.49998ZM2.49998 2.50027H5.74998V5.75043H2.49998V2.50027Z" />
+      </symbol>
+
+    </svg>
+
+    
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+    <script>
+      function setView() {
+        var val = document.querySelector('[name=view]:checked').value;
+        console.log(val);
+        if (val == 'table') {
+          document.querySelector('.gridview, .tableview').classList.add('tableview');
+          document.querySelector('.gridview, .tableview').classList.remove('gridview');
+        }
+        else {
+          document.querySelector('.gridview, .tableview').classList.add('gridview');
+          document.querySelector('.gridview, .tableview').classList.remove('tableview');
+        }
+      }
+
+      var s2 = new Swiper(".premium", {
+        slidesPerView: 1,
+        spaceBetween: 20,
+        mousewheel: true,
+        scrollbar: {
+          el: ".swiper-scrollbar",
+          hide: false,
+          draggable: true,
+        },
+        breakpoints: {
+          576: {
+            slidesPerView: "auto"
+          }
+        },
+      });
+    </script>
+  </body>
+</html>
